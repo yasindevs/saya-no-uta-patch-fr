@@ -1,0 +1,12 @@
+# sorties de build
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# fichiers du jeu : jamais dans le dépôt
+*.npk
+*.utf
+*.nps
+media/
