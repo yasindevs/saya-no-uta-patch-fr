@@ -1,0 +1,50 @@
+name: 🐞 Problème dans le jeu
+description: Texte décalé, phrase non traduite, texte qui déborde, caractère bizarre, plantage…
+title: "[Jeu] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de signaler le problème ! Plus la description est précise, plus il sera facile à corriger.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type de problème
+      options:
+        - Réplique décalée (le texte ne correspond pas à la voix ou à la scène)
+        - Phrase restée en anglais
+        - Texte qui déborde de la boîte / coupé
+        - Caractère qui s'affiche mal (carré, symbole)
+        - Faute ou erreur de traduction
+        - Plantage / problème d'installation
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: ou
+    attributes:
+      label: Où ?
+      description: Chapitre ou scène, ce qui vient de se passer, route choisie si c'est après un choix.
+      placeholder: "Ex. : chez Fuminori, juste après la visite d'Oumi"
+    validations:
+      required: true
+  - type: textarea
+    id: texte
+    attributes:
+      label: Texte affiché
+      description: Copie la phrase telle qu'elle apparaît (et, si tu la connais, ce qui devrait être affiché).
+  - type: textarea
+    id: capture
+    attributes:
+      label: Capture d'écran
+      description: Glisse une image ici, ça aide énormément.
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version du jeu
+      options:
+        - Steam
+        - GOG
+    validations:
+      required: true

@@ -39,6 +39,14 @@
   traduites depuis l'anglais pour combler les trous.
 - Les noms suivent la romanisation de NNUUU (*Kouji*, *Ryouko*, *Oumi*, *Yousuke*).
 
+## 🐞 Signaler un problème
+
+Le texte a été aligné automatiquement puis relu, mais il peut rester des erreurs : réplique décalée
+par rapport à la voix, phrase en anglais, texte qui déborde de la boîte, caractère qui s'affiche en carré…
+
+👉 **[Ouvre une issue](../../issues/new/choose)** en indiquant la scène, la phrase concernée
+(une capture d'écran aide beaucoup) et ta version du jeu (Steam ou GOG).
+
 ## 🛠️ Reconstruire le patch
 
 Il faut ta copie du jeu (Steam ou GOG) et le fichier `01.utf` de l'ancienne version patchée par NNUUU.
@@ -79,8 +87,8 @@ Notes de reverse engineering du moteur : [`docs/`](docs/).
 - Traduction anglaise amateur : TLWiki / tsukuru.info (2008-2009)
 - **Traduction française : NNUUU Production (2010)**
   ― traducteur : Ileca · testeurs-correcteurs : Gamera, Jevanni, Jisatsu, Lux · encodage : Eacil
-- Portage vers la version Steam / GOG, outils et installateur : **[yasindevs](https://github.com/yasindevs)**
+- Portage vers la version Steam / GOG, outils et installateur : **[yasindevs](https://github.com/yasindevs)**,
+  avec l'aide de **Claude** (Anthropic) pour l'alignement du texte, les outils et l'installateur
 
-> Dépôt privé, à usage personnel. NNUUU Production a demandé que son patch ne soit pas redistribué :
-> ce dépôt ne doit pas être rendu public sans leur accord. Il ne contient aucun fichier du jeu ; il faut
-> posséder le jeu (Steam ou GOG) pour utiliser le patch.
+> Traduction publiée avec l'accord de NNUUU Production. Le patch ne contient ni images, ni musiques, ni voix :
+> il faut posséder le jeu (Steam ou GOG) pour l'utiliser.
